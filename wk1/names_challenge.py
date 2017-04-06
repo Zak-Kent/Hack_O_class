@@ -1,6 +1,3 @@
-from random import shuffle
-
-
 """ 
 The goal of this challenge is to create a function that will take a list of 
 names and a bin size and then shuffle those names and return them in a 
@@ -20,21 +17,7 @@ def names_func(a_list, size):
     
     return None
 
-def test_func(a_list, size):
-    """
-    This is an example of how to solve the problem using a list comprehension
-    """
-    shuffle(a_list)
-    output =  [a_list[name: name+size] for name in range(0, len(a_list), size)] 
-
-    # check to see if there is only one name in last group if so add to another
-    if len(output[-1]) == 1:
-        remaining = output.pop(-1)
-        output[0].append(remaining)
-            
-    return output
 
 if __name__ == '__main__':
-    test = names_ans_func(range(11), 2)
-#    test = [item for item in test]
-    print("here is my result: {}".format(test))
+    # Any code here will run when the file is called by name on the command line
+    print(names_func([1,], 2))

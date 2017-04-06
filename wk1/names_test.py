@@ -1,5 +1,5 @@
 import unittest
-from names_challenge import names_func, test_func
+from names_challenge import names_func 
 
 
 class TestNamesFunc(unittest.TestCase):
@@ -18,13 +18,13 @@ class TestNamesFunc(unittest.TestCase):
 
     def test_names_func_returns_correct_list_of_lists(self):
         test_list = range(10)
-        output = test_func(test_list, 2)
+        output = names_func(test_list, 2)
         # output should have a list of lists with 5 inner lists
         self.assertEqual(len(output), 5)
 
     def test_names_func_returns_correct_list_when_names_not_evenly_divis(self):
         test_list = range(11)
-        output = test_func(test_list, 2)
+        output = names_func(test_list, 2)
         # output should still have list of list with 5 inner lists
         self.assertEqual(len(output), 5)
 
@@ -34,7 +34,7 @@ class TestNamesFunc(unittest.TestCase):
 
     def test_that_a_remaining_group_of_3_is_handled_properly(self):
         test_list = range(18)
-        output = test_func(test_list, 5)
+        output = names_func(test_list, 5)
         # output should have 4 inner lists
         self.assertEqual(len(output), 4)
 
