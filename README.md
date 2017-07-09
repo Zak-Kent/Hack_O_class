@@ -1,7 +1,7 @@
 # Python level II Day 1 
 
 ## Welcome!!!
-Thank you all for being willing to take time out of your day to learn some Python! It's our goal in this class to provide students with the skills needed to start making real projects and to be able to access and collect data using Python. We will be focusing primarily on the backend side of things and will spend most of our time working with 3rd party APIs as well as building our own. Day one of this class will focus on setting things up so that we'll be successful throughout the rest of our time together. Below you'll find a list of class objectives and information about the tools we'll be using during the next 8 weeks. 
+Thank you all for being willing to take time out of your day to learn some Python! It's our goal in this class to provide students with the skills needed to start making real projects and to be able to access and collect data. We will be focusing primarily on the backend side of things and will spend most of our time working with 3rd party APIs as well as building our own using the Django REST Framework. Day one of this class will focus on setting things up so that we'll be successful throughout the rest of our time together. Below you'll find a list of class objectives and information about the tools we'll be using during the next 8 weeks. 
 
 ### Tonight's objectives
 * Get to know one another
@@ -14,7 +14,7 @@ Thank you all for being willing to take time out of your day to learn some Pytho
 * Take Python general knowledge survey
 
 ## Class communication channels
-* (link to slack)
+* [Link to Class Slack Channel](https://hackusummer2017.slack.com)
 * Email zak.kent@gmail.com
 
 ## Introduction to the `showoff` presentation tool
@@ -66,3 +66,4 @@ Once the CLI for Exercism is installed run the command `exercism fetch python wo
 
 ## Python general knowledge survey
 The link below will lead you to a survey about your current level of Python knowledge. It's completely anonymous and will be used as a way to tailor instruction according to the needs of the class. We ask that you complete the form before leaving tonight and do so without looking up answers while you're filling it out. It's perfectly ok if you aren't familiar with everything in the survey, just fill out what you can.
+[Python Knowledge survey](https://docs.google.com/forms/d/1cqpVhViQ9-lPPHKQfqSUxEW19RoQCBIoi7SOaR6PmWo/viewform?edit_requested=true)
