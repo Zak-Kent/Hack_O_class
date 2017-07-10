@@ -53,8 +53,11 @@ Throughout this course we will be using Git and GitHub as a convenient way to sh
 * Sync your forked repo with the original
   * We will follow the process in the link below to get new code for each day in class
   * [docs on syncing a fork](https://help.github.com/articles/syncing-a-fork/)
-* Make a branch called `<your_name_day_1>`
-* Push the branch you made to your GitHub fork (called `origin`)
+* Make a new directory using your name as the title inside the `student-work` directory in the class repo
+* Inside your newly created directory use the command `touch README.md` to create a new README.md file 
+* Use git to add and commit the file you just created
+* Push the changes to your GitHub fork (called `origin`) with the command `git push origin master`
+* Go to GitHub and make a pull request against the class repo with your changes
 
 ## Introduction to Exercism
 [Exercism.io](http://exercism.io/languages/python/about) is a really cool learning resource that has a selection of ready made code challenges with included tests that we will use occasionally during our course. We will only use the code challenges in Exercism when they apply directly to what we're learning but will follow a similar format for custom in class challenges.
