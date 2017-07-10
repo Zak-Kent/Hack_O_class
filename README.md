@@ -70,3 +70,6 @@ Once the CLI for Exercism is installed run the command `exercism fetch python wo
 ## Python general knowledge survey
 The link below will lead you to a survey about your current level of Python knowledge. It's completely anonymous and will be used as a way to tailor instruction according to the needs of the class. We ask that you complete the form before leaving tonight and do so without looking up answers while you're filling it out. It's perfectly ok if you aren't familiar with everything in the survey, just fill out what you can.
 [Python Knowledge survey](https://docs.google.com/forms/d/1cqpVhViQ9-lPPHKQfqSUxEW19RoQCBIoi7SOaR6PmWo/viewform?edit_requested=true)
+
+
+
