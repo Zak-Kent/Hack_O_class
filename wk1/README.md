@@ -34,12 +34,12 @@ bike_1.ring_bell()
 ```
 
 ### Pair programming exercise
-With the person you’re sitting next to you take turns creating a simple class that is different than the one shown above. Make the class have at least three attributes in its `__init__` method and at least one method that combines two of these attributes in some way. Create an instance of your class to check your results. Please put this work inside the `student-work/<your_name>/week_1/working_with_classes.py` file. 
+With the person you’re sitting next to take turns creating a simple class that is different than the one shown above. Make the class have at least three attributes in its `__init__` method and at least one method that combines two of these attributes in some way. Create an instance of your class to check your results. Please put this work inside the `student-work/<your_name>/week_1/working_with_classes.py` file. 
 
 __Not required but try if you'd like an extra challenge:__ look up `special method names` for Python classes and add one or two to the class you created.  
 
 ## Class variables 
-Class variables are a way to share the same attributes across all of the instances that you've created from your class. Seeing how they work will give us some intution into how and instance of a class finds things that are related to itself. 
+Class variables are a way to share the same attributes across all of the instances that you've created from your class. Seeing how they work will give us some intution into how an instance of a class finds things that are related to itself. 
 
 ```Python 
 class Bicycle:
@@ -55,7 +55,7 @@ class Bicycle:
         return int(self.speed * self.sprinting_speed)
 ```
 
-In the code snippet above notice how you can access the class variables using `self` and `Bicycle`. What you you think the are differences between both approaches? Make an instance of the class and print out the `__dict__` for the instance and the class. 
+In the code snippet above notice how you can access the class variables using `self` and `Bicycle`. What do you think are the differences between both approaches? Make an instance of the class and print out the `__dict__` for the instance and the class. 
 
 ```Python
 # Example of printing __dict__ for a class instance and a class
@@ -103,10 +103,10 @@ Look inside the `student-work/<your_name>/week_1/group-challenge/` directory. In
 
 # Group challenge
 
-This will be a three part challenge that everyone will be working in small groups of three to solve. Please talk with your group about what you're doing and help each other if you get stuck along the way. Below you'll find an outline of the problem requirements. 
+This will be a three part challenge that everyone will be working on in small groups of three to solve. Please talk with your group about what you're doing and help each other if you get stuck along the way. Below you'll find an outline of the problem requirements. 
 
 ## Challenge requirements
-* make a group of three classes that model students and a teacher in a usual classroom. You should use a base class for the shared characteristics and between both Student and Teacher classes. 
+* make a group of three classes that model students and a teacher in a usual classroom. You should use a base class for the shared characteristics between both Student and Teacher classes. 
 
 * Shared attributes and methods for both classes:
     * Shared attributes: first_name, last_name, email
